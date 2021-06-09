@@ -9,49 +9,76 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
     <title>Venom-2</title>
   </head>
-  <body>
+  <body class="blood">
     <div class="container">
-        <header class="header">
-      <a href="/" class="logo-link">
-        <img
-          height="71"
-          width="46"
-          src="img/logo.png"
-          alt="logo: venom"
-          class="logo-image"
-        />
-      </a>
-      <nav class="nav">
+      <header class="header">
+        <a href="/index.html" class="logo-link">
+          <img
+            height="71"
+            width="46"
+            src="/img/logo.png"
+            alt="logo: venom"
+            class="logo-image"
+          />
+        </a>
+        <nav class="nav">
           <ul class="nav-menu">
-              <li class="nav-menu-item">
-                  <a href="about.html" class="nav-menu-link">о фильме</a>
-              </li>
-              <li class="nav-menu-item">
-                  <a href="trailer.html" class="nav-menu-link">трейлер</a>
-              </li>
-              <li class="nav-menu-item">
-                  <a href="actors.html" class="nav-menu-link">актеры</a>
-              </li>
-              <li class="nav-menu-item">
-                  <a href="premiere.html" class="nav-menu-link">премьера</a>
-              </li>
+            <li class="nav-menu-item">
+              <a href="about.html" class="nav-menu-link">о фильме</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="trailer.html" class="nav-menu-link">трейлер</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="actors.html" class="nav-menu-link">актеры</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="premiere.html" class="nav-menu-link">премьера</a>
+            </li>
           </ul>
-      </nav>
-    </header>
-    <div class="film">
+        </nav>
+      </header>
+      <div class="film">
         <div class="film-text">
-            <span class="film-date">16 сентября 2021</span>
-            <img src="img/venom-2.svg" alt="title: venom-2" class="film-logo">
-            <p class="film-description">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов Marvel.</p>
+          <span class="film-date">16 сентября 2021</span>
+          <img src="/img/venom-2.svg" alt="title: venom-2" class="film-logo" />
+          <p class="film-description">
+            В настырном журналисте по-прежнему живет симбиот. Том Харди в образе
+            обаятельного суперзлодея из комиксов Marvel.
+          </p>
         </div>
         <!-- /.film-text -->
-    </div>
-    <!-- /.film -->
+        <div class="button-group">
+          <button class="button button-primery">
+            <img
+              height="15"
+              width="15"
+              src="img/play.svg"
+              alt="icon: play"
+              class="button-icon"
+            />
+            <span class="button-text">смотреть трейлер</span>
+          </button>
+          <a href="#" class="button button-link">
+              <img
+              height="15"
+              width="15"
+              src="img/ticket.svg"
+              alt="icon: ticket"
+              class="button-icon"
+            />
+            <span class="button-text">билеты на премьеру</span>
+          </a>
+        </div>
+        <!-- /.button-group -->
+      </div>
+      <!-- /.film -->
     </div>
     <!-- /.container -->
+    <img src="img/venom.png" alt="photo: venom" class="venom">
   </body>
 </html>
